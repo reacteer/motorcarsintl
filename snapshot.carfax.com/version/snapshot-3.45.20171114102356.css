@@ -1,0 +1,473 @@
+.dealer-snapshot .snapshot-hover {
+  cursor: pointer;
+}
+.dealer-snapshot .ymm {
+  position: relative;
+}
+.dealer-snapshot .ymm p {
+  width: 70%;
+}
+.dealer-snapshot .ymm img {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+}
+.dealer-snapshot .snapshot-red-fox {
+  display: none !important;
+}
+.dealer-snapshot .free-carfax-report {
+  padding-top: 26px !important;
+  padding-bottom: 32px !important;
+}
+.dealer-snapshot li.row2 .text,
+.dealer-snapshot li.row3 .text,
+.dealer-snapshot li.row5 .text {
+  width: 80% !important;
+}
+.carfax-dealer-snapshot-embedded,
+#carfax-dealer-snapshot-popup {
+  width: 315px;
+}
+#onePriceForm {
+  margin-bottom: 0;
+}
+.dealer-value-snapshot .carfax-value {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0 10px 130px;
+  background: #3777bc url("https://media.carfax.com/img/vhr/snapshotLogo.png") no-repeat 5% 50%;
+}
+.dealer-value-snapshot .value-details {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  color: #3777bc;
+}
+.dealer-value-snapshot .value-item {
+  font-size: 26px;
+  font-weight: 700;
+  width: 41%;
+  border-right: 2px solid lightgray;
+  padding: 14px 5px 20px 5px;
+  position: relative;
+}
+.dealer-value-snapshot .value-nav {
+  font-size: 44px;
+  line-height: 0.1;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dealer-value-snapshot .value-type {
+  position: absolute;
+  right: 21px;
+  bottom: 1px;
+  font-size: 10px;
+  color: gray;
+  font-weight: 100;
+}
+.dealer-value-snapshot .value-container {
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #666666;
+  border-top: 0;
+}
+.dealer-value-snapshot .free-carfax-report {
+  padding-bottom: 11px !important;
+  padding-top: 11px !important;
+}
+.dealer-value-snapshot #no-value-message {
+  text-align: center;
+  margin: auto;
+  font-size: 14px;
+  color: #666666;
+  padding-top: 8px;
+}
+.dealer-value-snapshot #no-value-ymm {
+  text-align: center;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666;
+}
+.carfax-dealer-snapshot-embedded,
+#carfax-dealer-snapshot-popup {
+  border: 1px solid #666666;
+  width: 315px;
+}
+.retail-text-solo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 16px;
+  font-size: 10px;
+  color: gray;
+  font-weight: 100;
+}
+.retail-price-solo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: 60px;
+  padding-top: 5px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.no-wholesale-value-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  font-size: 44px;
+  font-weight: 700;
+  border-left: solid 2px lightgray;
+}
+.carfax-snapshot ul {
+  background: #fdfbe1;
+  padding: 0 0 0 0;
+  margin: 0;
+  list-style: none;
+}
+.carfax-snapshot li {
+  color: #43474f;
+  font-size: 1.3em;
+  line-height: 18px;
+  border-top: 1px solid #dad9d2;
+  text-align: left;
+}
+.carfax-snapshot li:first-child {
+  border-top: 0;
+}
+.carfax-snapshot li .text,
+.carfax-snapshot li .dealertext {
+  font-size: 62.5%;
+  display: inline-block;
+  vertical-align: middle;
+  background: none;
+}
+.carfax-snapshot li.row0 .text,
+.carfax-snapshot li.row1 .text {
+  width: 80%;
+}
+.carfax-snapshot li.row2 .text,
+.carfax-snapshot li.row3 .text {
+  width: 50%;
+}
+.carfax-snapshot li.row4 .text {
+  width: 49%;
+}
+.carfax-snapshot li.row5 .text {
+  width: 45%;
+}
+.carfax-snapshot li .text label,
+.carfax-snapshot li .dealertext label {
+  font-weight: bold;
+  display: inline;
+}
+.carfax-snapshot .icn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 38px;
+  height: 41px;
+  margin: 0 5px 0 5px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #dad9d2;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.carfax-snapshot .empty-row {
+  display: inline-block;
+  vertical-align: middle;
+  width: 38px;
+  height: 41px;
+  margin: 0 5px 0 5px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid #dad9d2;
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  background: none;
+  padding: 0;
+}
+.carfax-snapshot li div {
+  background-image: url(https://media.carfax.com/img/vhr/snapshotsprite.png);
+}
+.carfax-snapshot .owner1 {
+  background-position: 0 -132px;
+}
+.carfax-snapshot .owner2 {
+  background-position: 0 -192px;
+}
+.carfax-snapshot .owner3 {
+  background-position: 0 -252px;
+}
+.carfax-snapshot .accident,
+.carfax-snapshot .salvage,
+.carfax-snapshot .recycler,
+.carfax-snapshot .frameDamage,
+.carfax-snapshot .airbag {
+  background-position: 0 -312px;
+}
+.carfax-snapshot .alert,
+.carfax-snapshot .stolen,
+.carfax-snapshot .scrapped,
+.carfax-snapshot .crashTest,
+.carfax-snapshot .totalLoss,
+.carfax-snapshot .auctionSevereDamage,
+.carfax-snapshot .buyback,
+.carfax-snapshot .auctionOdoProb {
+  background-position: 0 -372px;
+}
+.carfax-snapshot .commercial {
+  background-position: 0 -492px;
+}
+.carfax-snapshot .corporate {
+  background-position: 0 -552px;
+}
+.carfax-snapshot .cpo {
+  background-position: 0 -612px;
+}
+.carfax-snapshot .detailedRecords {
+  background-position: 0 -672px;
+}
+.carfax-snapshot .fyi {
+  background-position: 0 -732px;
+}
+.carfax-snapshot .generic {
+  background-position: 0 -792px;
+}
+.carfax-snapshot .mileage {
+  background-position: 0 -852px;
+}
+.carfax-snapshot .minorDmg,
+.carfax-snapshot .veryMinorDmg,
+.carfax-snapshot .accidentNoDmg,
+.carfax-snapshot .collisionRepairs {
+  background-position: 0 -912px;
+}
+.carfax-snapshot .noAccident,
+.carfax-snapshot .noDamage {
+  background-position: 0 -972px;
+}
+.carfax-snapshot .wellMaintained {
+  background-position: 0 -1032px;
+}
+.carfax-snapshot .personal {
+  background-position: 0 -1092px;
+}
+.carfax-snapshot .recall {
+  background-position: 0 -1152px;
+}
+.carfax-snapshot .rental {
+  background-position: 0 -1212px;
+}
+.carfax-snapshot .rollback {
+  background-position: 0 -1272px;
+}
+.carfax-snapshot .service {
+  background-position: 0 -1332px;
+}
+.carfax-snapshot .stateOwned {
+  background-position: 0 -1392px;
+}
+.carfax-snapshot .taxi {
+  background-position: 0 -1452px;
+}
+.carfax-snapshot .orangeCar {
+  background-position: 0 -1541px;
+}
+.carfax-snapshot .magnifyingGlass {
+  background-position: -3px -1579px;
+}
+.carfax-snapshot .information {
+  background-position: -3px -1616px;
+}
+.carfax-snapshot label {
+  color: #000;
+}
+#carfax-dealer-snapshot-popup .carfax-snapshot ul,
+.carfax-dealer-snapshot-embedded .carfax-snapshot ul {
+  background: #FFF;
+  border: solid #dad9d2;
+  border-width: 1px 0 1px 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCQYag.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7CA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYag.ttf) format('truetype');
+}
+.carfax-snapshot-embedded,
+#carfax-snapshot-popup {
+  width: 410px;
+}
+.carfax-snapshot-embedded .snapshot-red-fox {
+  position: absolute;
+  bottom: 109px !important;
+  right: -8px;
+  width: 136px;
+  height: 177px;
+  background-image: url("https://media.carfax.com/img/vhr/snapshotFox.png");
+}
+.carfax-snapshot {
+  box-shadow: 0 5px 25px -5px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-family: sans-serif;
+  height: inherit;
+  position: relative;
+  color: inherit;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.carfax-snapshot b,
+.carfax-snapshot strong {
+  font-weight: bold;
+}
+.carfax-snapshot p {
+  margin: 0 0;
+  font-size: 12px;
+}
+.carfax-snapshot a {
+  text-decoration: none;
+  color: #3777bc;
+  font-size: 12px;
+}
+.carfax-snapshot a:hover {
+  text-decoration: underline;
+}
+.carfax-snapshot a:focus {
+  outline: thin dotted;
+}
+.carfax-snapshot a,
+.carfax-snapshot a:active,
+.carfax-snapshot a:visited,
+.carfax-snapshot a:hover {
+  outline: 0;
+  font-weight: 500;
+}
+.carfax-snapshot .snapshot-red-fox {
+  position: absolute;
+  bottom: 119px;
+  right: -8px;
+  width: 136px;
+  height: 177px;
+  background-image: url("https://media.carfax.com/img/vhr/snapshotFox.png");
+}
+.carfax-snapshot .carfax-logo {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0 10px 130px;
+  background: #3777bc url("https://media.carfax.com/img/vhr/snapshotLogo.png") no-repeat 5% 50%;
+}
+.carfax-snapshot .ymm {
+  background: white;
+  border-bottom: 1px solid #dad9d2;
+  padding: 5px 0 5px 10px;
+  color: #333;
+}
+.carfax-snapshot .ymm p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.carfax-snapshot .error-text {
+  background: white;
+  padding: 10px 15px 0 15px;
+  line-height: 18px;
+  font-size: 20px;
+  height: 390px;
+  color: #000;
+}
+.carfax-snapshot .error-text p {
+  margin: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+.carfax-snapshot .error-text a {
+  font-size: 100%;
+}
+.carfax-snapshot .free-carfax-report {
+  text-align: center;
+  border-top: 1px #ccc solid;
+  background: white;
+  padding: 20px 15px 0 15px;
+  line-height: 18px;
+}
+.carfax-snapshot .free-carfax-report a {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 21px;
+  color: white;
+  display: inline-block;
+  background: #7dc242;
+  width: 265px;
+  line-height: 35px;
+  border: 3px #fff solid;
+  -webkit-box-shadow: #d6d6d6 0 0 5px 3px;
+  -moz-box-shadow: #d6d6d6 0 0 5px 3px;
+  box-shadow: #d6d6d6 0 0 5px 3px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7dc242), color-stop(100%, #5d9741));
+  background: -webkit-linear-gradient(#7dc242, #5d9741);
+  background: -moz-linear-gradient(#7dc242, #5d9741);
+  background: -o-linear-gradient(#7dc242, #5d9741);
+  background: linear-gradient(#7dc242, #5d9741);
+}
+.carfax-snapshot .free-carfax-report p {
+  font-size: 12px;
+  padding: 10px 0 20px;
+  color: #5b5e5e;
+  text-align: center;
+}

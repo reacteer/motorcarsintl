@@ -1,0 +1,2 @@
+$('.specifics-value:contains(FREE AutoCheck Vehicle Report) a').html('<img src="https://automanager.blob.core.windows.net/wmclients/033666/images/autocheck-com.png">');
+$('.specifics-value:contains(CARFAX Buyback Guarantee) a').html('<img src="https://media.carfax.com/img/vhr/snapshotLogo.png">');
